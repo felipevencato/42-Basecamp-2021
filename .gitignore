@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Vim swap files
+*.swp
+
+# Pastas de configutaçao da 42
+.basecamp/
+.config/
+.gitconfig
+.lesshst
+.local/share/
+.python_history
+.ssh/
+.wget-hsts
+.viminfo
