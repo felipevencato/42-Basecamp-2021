@@ -1,6 +1,6 @@
 runtime! debian.vim
 if has("syntax")
-  syntax on
+	syntax on
 endif
 set showcmd
 set showmatch
@@ -22,5 +22,5 @@ set listchars=space:.,eol:$,tab:┌┬┐,trail:·
 set textwidth=80
 " Relembra a posição do cursor
 if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
