@@ -1,10 +1,8 @@
 #!/bin/bash
-$EDITOR "$1"
-norminette -R CheckForbiddenSourceHeader
-if [ $? == 0 ]
-then
-	rm a.out
+norminette -R CheckForbiddenSourceHeader ex*
+# if [ $? == 0 ]
+# then
 	gcc -Wall -Wextra -Werror main.c ex0*/*.c && 
-	shift && 
+# 	shift && 
 	./a.out $*
-fi
+# fi
