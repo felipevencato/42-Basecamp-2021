@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/fevencat/C00/ex01'
-let g:netrw_dirhist_2='/home/fevencat/C00/ex05'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/fevencat'
+let g:netrw_dirhist_2='/home/fevencat/Rush'
+let g:netrw_dirhist_3='/home/fevencat/Rush/Rush00'
