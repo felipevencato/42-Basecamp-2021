@@ -51,16 +51,21 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Vim swap files
+# Vim
 *.swp
+.vim/.netrwhist
+
+# Arquivos .git
+.gitconfig
+.git/
 
 # Pastas de configutaçao da 42
 .basecamp/
 .config/
-.gitconfig
 .lesshst
 .local/share/
 .python_history
 .ssh/
 .wget-hsts
 .viminfo
+.bash_history
